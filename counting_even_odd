@@ -1,0 +1,26 @@
+// counting total no of even and odd
+#include <stdio.h>
+
+int main()
+{
+    int a[10],even=0,odd=0,i,count=0;
+    printf("enter the number:\n");
+     
+for(i=0;i<10;i++){
+    scanf("%d",&a[i]);
+    if(a[i]%2==0){
+        even++;
+        
+    }
+      
+    else{
+        odd++;
+    }
+    
+}
+
+        printf("total even numbers :%d\n",even);
+         printf("total  odd numbers :%d",odd);
+
+     return 0;
+}
