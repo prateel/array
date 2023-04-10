@@ -1,0 +1,22 @@
+// sum and average of marks of 10 students
+#include <stdio.h>
+
+int main()
+{
+    int marks[10],i;
+    float sum=0,avg;
+    printf("enter the marks of the students:");
+     
+for(i=0;i<10;i++){
+    scanf("%d",&marks[i]);
+}
+for(i=0;i<10;i++){
+    sum=sum+marks[i];
+    avg=sum/10;
+    
+}
+
+printf("sum:%f",sum);
+printf("\n average:%f",avg);
+    return 0;
+}
